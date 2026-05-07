@@ -492,7 +492,6 @@ async function askForWizardLogin(options: {
     scopes: [
       'user:read',
       'project:read',
-      'introspection',
       'llm_gateway:read',
       'dashboard:write',
       'insight:write',
